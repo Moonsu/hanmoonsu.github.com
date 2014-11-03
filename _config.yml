@@ -1,14 +1,30 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
-
+-title: Sim & Han
+-email: shks9003@hanmail.net , masteryoh@naver.com
+-author: Sim, Han
++title: C++
++email: shks9003@hanmail.net , masteryoh@naver.com
++author: Sim, Han
+description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+-baseurl: ""
+-url: "http://pixyll.com"
++baseurl: ""
++url: "http://pixyll.com"
++
++# Google analytics
+google_analytics:
+-animated: false
++
++# Optional features
++animated: false
+show_related_posts: false
++show_post_footers: false
 # Build settings
-markdown: kramdown
+-markdown: kramdown
+-permalink: pretty
+-paginate: 3
++markdown: kramdown
++permalink: pretty
++paginate: 3
+sass:
+compressed: true
